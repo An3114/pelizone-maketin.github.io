@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataformas Disponibles</title>
+    <p>horarios de 1-pm 8-pm</p>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #5a64ea, #6b75ff);
+            color: #fff;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 1em;
+            font-weight: bold;
+        }
+
+        .contenedor-tarjetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .tarjeta {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .tarjeta img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .tarjeta h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        .tarjeta p {
+            font-size: 0.9em;
+            margin: 5px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            border-radius: 10px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ff3b3b;
+        }
+
+        #planes {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border-top: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        #planes h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .combo {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 1.2rem;
+            margin: 1rem auto;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .combo h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Plataformas Disponibles</h1>
+    </header>
+
+    <section class="contenedor-tarjetas">
+
+        <div class="tarjeta">
+            <img src="https://images.icon-icons.com/835/PNG/512/yt_icon-icons.com_66728.png">
+            <h3>YouTube Premium</h3>
+            <p>Precio: 10.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20YouTube%20Premium" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png">
+            <h3>Netflix</h3>
+            <p>Precio: 15.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Netflix" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.icon-icons.com/2657/PNG/256/disney_plus_icon_161064.png">
+            <h3>Disney+ Estándar</h3>
+            <p>Precio: 6.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Disney+%20Estándar" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.icon-icons.com/2657/PNG/256/disney_plus_icon_161064.png">
+            <h3>Disney Premium + ESPN</h3>
+            <p>Precio: 12.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Disney%20Premium%20con%20ESPN" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://play-lh.googleusercontent.com/HP5hUJR2u3ipVc6G758om22BTNQhTunxzRI1Rk-yltp85ilb60Ekj46_VYaRL2kiSSA=w240-h480-rw">
+            <h3>HBO Max</h3>
+            <p>Precio: 7.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20HBO%20Max" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://play-lh.googleusercontent.com/oi4GE8ulxHp4Y2xVzKu_WAMrgE4Jj4Kbdd7hAWLeoZTsMtC5bYTd2xcYhlvMk69pTFY=w240-h480-rw">
+            <h3>Paramount+</h3>
+            <p>Precio: 6.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Paramount+" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://w7.pngwing.com/pngs/139/210/png-transparent-crunchyroll-social-network-network-connection-communication-interaction-social-network-flat-icon.png">
+            <h3>Crunchyroll Premium</h3>
+            <p>Precio: 7.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Crunchyroll" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://i.pinimg.com/1200x/9e/9a/e9/9e9ae9ca207ea166c3d5c4f1ad9ffe1f.jpg">
+            <h3>Vix+</h3>
+            <p>Precio: 5.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Vix+" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://play-lh.googleusercontent.com/FAlWhVMAjAzI6Nxc7bf4KPgjbwA3GT9j2bzeAMnRpdWim_2SXnS9i4zhwasKWIC8PV4=w240-h480-rw">
+            <h3>Jellyfin+</h3>
+            <p>Precio: 18.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <p>🎬 Contiene más de 3.000 canales, además de películas y series 🔥</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Jellyfin+" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://img.icons8.com/?size=256&id=EHtqS186HLz5&format=png">
+            <h3>Prime Video</h3>
+            <p>Precio: 7.000 COP / pantalla</p>
+            <p>Duración: 30 días</p>
+            <a href="https://wa.me/573206034019?text=Hola%20👋,%20quiero%20la%20pantalla%20de%20Prime%20Video" class="btn">🛒 comprar</a>
+            <p>💳 Puedes pagar una parte primero y luego cancelar el resto ✅</p>
+        </div>
+    </section>
+
+<!-- Sección de combos -->
+<section id="planes">
+    <h2>Combos Especiales</h2>
+
+    <div class="combo">
+        <h3>Prime Video + HBO Max</h3>
+        <p>Precio: 13.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Prime%20y%20HBO%20Max" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Prime + Disney</h3>
+        <p>Precio: 13.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Prime%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Max + Disney</h3>
+        <p>Precio: 13.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Max%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Prime + Max + Disney</h3>
+        <p>Precio: 17.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Prime,%20Max%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Prime + Max</h3>
+        <p>Precio: 22.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix,%20Prime%20y%20Max" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Prime + Max + Disney + Vix</h3>
+        <p>Precio: 20.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Prime,%20Max,%20Disney%20y%20Vix" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Prime</h3>
+        <p>Precio: 18.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix%20y%20Prime" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Max</h3>
+        <p>Precio: 18.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix%20y%20Max" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Disney</h3>
+        <p>Precio: 18.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Max + Disney</h3>
+        <p>Precio: 22.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix,%20Max%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Prime + Disney</h3>
+        <p>Precio: 22.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix,%20Prime%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>Netflix + Prime + Max + Disney</h3>
+        <p>Precio: 26.000 COP</p>
+        <a href="https://wa.me/573206034019?text=Hola,%20quiero%20el%20combo%20Netflix,%20Prime,%20Max%20y%20Disney" class="btn">🛒 comprar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+
+    <div class="combo">
+        <h3>🎬 ¡Arma tu combo a tu gusto! 📦</h3>
+        <p>Elige tus plataformas favoritas y te damos el mejor precio 💥</p>
+        <a href="https://wa.me/573206034019?text=🎬%20¡Hola!%20Quiero%20armar%20mi%20combo%20a%20mi%20gusto%20con%20mis%20plataformas%20favoritas%20📦" class="btn">🛒 Llevar</a>
+        <p>💳 Puedes pagar una parte primero y, una vez tengas la cuenta instalada y funcionando, cancelar el resto ✅</p>
+    </div>
+</section>
+
+<footer>
+    <p>💬 ¡Actualizamos precios! Consigue tu plataforma favorita con seguridad y soporte garantizado.</p>
+</footer>
+</body>
+</html>
