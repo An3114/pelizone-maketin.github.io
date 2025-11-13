@@ -435,7 +435,7 @@
       </div>
 
       <div class="note-box">
-        💡 <strong>Nota:</strong> 💬 ¿Me podría brindar información y precio correspondiente a mi carrito con los descuentos aplicados? 🛒💰.
+        💡 <strong>Nota:</strong> 💬 El vendedor te dará el precio correspondiente por tu carrito con los descuentos aplicados.🛒💰.
       </div>
 
       <button id="send-whatsapp" class="send-btn">Enviar carrito al vendedor (WhatsApp)</button>
@@ -534,7 +534,7 @@
       const counts = {};
       cart.forEach(name => counts[name] = (counts[name]||0) + 1);
       const lines = Object.keys(counts).map(n => `• ${n}${counts[n] > 1 ? ` (x${counts[n]})` : ''}`);
-      const message = `Hola 👋, quiero pedir:\n${lines.join('\n')}\n\n💡 El vendedor me dará el precio total con los descuentos correspondientes.`;
+      const message = `Hola 👋, quiero pedir:\n${lines.join('\n')}\n\n💡 💬 ¿Me podría brindar información y precio correspondiente a mi carrito con los descuentos aplicados? 🛒💰.`;
       const encoded = encodeURIComponent(message);
       // Abre WhatsApp (nuevo tab)
       const waUrl = `https://wa.me/573206034019?text=${encoded}`;
@@ -550,4 +550,5 @@
   </script>
 </body>
 </html>
+
 
